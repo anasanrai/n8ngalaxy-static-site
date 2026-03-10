@@ -1,47 +1,36 @@
-# n8nGalaxy — Static Website
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Production-ready static website for **n8nGalaxy**, an AI Automation & Chatbot Studio.
+## Getting Started
 
-This repository hosts the **marketing and legal site** deployed on Vercel.
-The automation platform (n8n) is intentionally hosted on a **separate subdomain**
-to improve security, reliability, and OAuth compliance.
+First, run the development server:
 
----
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 🌐 Live Domains
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Main site: https://n8ngalaxy.com
-- Automation platform: https://n8n.n8ngalaxy.com
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📦 Tech Stack
+## Learn More
 
-- HTML5
-- CSS3 (custom design system, dark/light theme)
-- Vanilla JavaScript
-- Vercel (static hosting)
+To learn more about Next.js, take a look at the following resources:
 
----
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## 🔐 Google API & OAuth Compliance
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-This website includes:
+## Deploy on Vercel
 
-- Dedicated **Privacy Policy** and **Terms of Service**
-- Explicit Google API Limited Use compliance language
-- Clear separation between marketing site and workflow execution
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-The automation platform may integrate with:
-
-- Gmail API
-- Google Drive API
-- Google Sheets API
-- Google Calendar API
-
-Google user data is accessed **only after explicit OAuth consent**
-and used strictly to perform user-configured automation workflows.
-
----
-
-## 📁 Project Structure
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

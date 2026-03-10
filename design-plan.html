@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>n8nGalaxy — Complete Design Plan</title>
+    <meta name="description" content="Complete design plan for n8nGalaxy: visual identity, effects, pages, and components." />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <style>
+      .plan h2 { margin-top: 22px; }
+      .plan h3 { margin-top: 16px; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+      .kvs { display: grid; gap: 6px; }
+      .kvs .kv { display: flex; justify-content: space-between; border: 1px solid var(--border); padding: 8px 12px; border-radius: 12px; background: rgba(255,255,255,0.05); }
+      @media (max-width: 900px){ .grid2{ grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="/">n8nGalaxy</a>
+        <nav class="nav">
+          <a href="/">Home</a>
+          <a href="/design-plan.html" class="active">Design Plan</a>
+          <a href="/terms.html">Terms</a>
+          <a href="/privacy.html">Privacy</a>
+          <button id="themeToggle" class="btn small" type="button">Theme</button>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container plan">
+      <section class="card">
+        <div class="section-head">
+          <h1>n8nGalaxy.com — Complete Design Plan</h1>
+          <p class="muted">Deep space aesthetic • Starfield • Glass morphism • Vercel‑friendly static site</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card mini">
+            <h2>Visual Identity</h2>
+            <div class="kvs">
+              <div class="kv"><span>Theme</span><span>Deep space — stars, nebula, planets</span></div>
+              <div class="kv"><span>Background</span><span class="mono">#0a0a0f</span></div>
+              <div class="kv"><span>Primary</span><span class="mono">#6366f1</span></div>
+              <div class="kv"><span>Accent</span><span class="mono">#a855f7</span></div>
+              <div class="kv"><span>Highlight</span><span class="mono">#06b6d4</span></div>
+              <div class="kv"><span>Success</span><span class="mono">#10b981</span></div>
+              <div class="kv"><span>Text</span><span class="mono">#f8fafc</span></div>
+              <div class="kv"><span>Subtext</span><span class="mono">#94a3b8</span></div>
+            </div>
+          </div>
+
+          <div class="card mini">
+            <h2>Effects</h2>
+            <ul class="list">
+              <li>Animated star field background</li>
+              <li>Glowing card borders (purple/cyan)</li>
+              <li>Nebula gradient blobs (blurred, behind content)</li>
+              <li>Planet illustrations (decorative)</li>
+              <li>Particle effects on hover</li>
+              <li>Glass morphism cards (backdrop‑blur + semi‑transparent bg)</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Pages to Design (Figma)</h2>
+        <div class="section-head"><h3>1) Homepage /</h3></div>
+
+        <div class="card mini">
+          <h3>Section 1 — Hero</h3>
+          <ul class="list">
+            <li>Animated starfield + floating planet + nebula blob</li>
+            <li>Badge: <span class="mono">🌌 The n8n Template Marketplace</span></li>
+            <li>H1: “Automate Everything. Launch in Minutes.”</li>
+            <li>Subtitle: “500+ battle‑tested n8n workflows…”</li>
+            <li>Buttons: <span class="mono">Explore Templates</span> • <span class="mono">Watch Demo</span></li>
+            <li>Stats row: <span class="mono">🌟 7 Templates • 👥 0 Users • ⚡ 500+ Nodes</span></li>
+            <li>Hero image with glowing border + slight 3D tilt</li>
+          </ul>
+        </div>
+
+        <div class="grid2">
+          <div class="card mini">
+            <h3>Section 2 — Categories</h3>
+            <p class="muted">Title: “Explore by Industry”</p>
+            <ul class="list">
+              <li>Grid (2×3 + 1 custom), glow on hover</li>
+              <li>Cards: Real Estate, E‑commerce, Medical/Health, Restaurant, Finance, All Industries, Custom</li>
+            </ul>
+          </div>
+          <div class="card mini">
+            <h3>Section 3 — Featured Templates</h3>
+            <ul class="list">
+              <li>Title: “Most Popular Templates” • Subtitle: “Trusted by automation builders worldwide”</li>
+              <li>Grid of Template Cards • “View All Templates →”</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="card mini">
+            <h3>Section 4 — How It Works</h3>
+            <ul class="list">
+              <li>🔭 Browse → 💫 Buy & Download → 🚀 Deploy</li>
+            </ul>
+          </div>
+          <div class="card mini">
+            <h3>Section 5 — Free Template CTA</h3>
+            <ul class="list">
+              <li>Nebula gradient background • Email capture for free template</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="card mini">
+            <h3>Section 6 — Sell Your Templates</h3>
+            <ul class="list">
+              <li>70% revenue share • Instant payouts • Global audience</li>
+            </ul>
+          </div>
+          <div class="card mini">
+            <h3>Section 7 — Affiliate Program</h3>
+            <ul class="list">
+              <li>30% commission • Lifetime cookies • Monthly payouts</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="grid2">
+          <div class="card mini">
+            <h3>Section 8 — Testimonials</h3>
+            <p class="muted">3 testimonial cards (placeholder content)</p>
+          </div>
+          <div class="card mini">
+            <h3>Section 9 — Footer</h3>
+            <p class="muted">Logo + multi‑column links • Bottom bar with © and credit</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Templates Page (/templates)</h2>
+        <ul class="list">
+          <li>Header with title/subtitle • Star particles</li>
+          <li>Search bar (glass morphism) • Category pills • Sort & filters</li>
+          <li>Results count • 3‑column grid • Pagination</li>
+        </ul>
+        <h3>Template Card</h3>
+        <ul class="list">
+          <li>Glass morphism • Glow border hover • 16:9 image • Level badge</li>
+          <li>Category icon • FREE badge when price = 0</li>
+          <li>Nodes row • Stats row • Price + CTA</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Template Detail (/templates/[slug])</h2>
+        <ul class="list">
+          <li>Breadcrumbs • Two column layout</li>
+          <li>Left: Tabs [Preview | Nodes | Reviews] with image viewer</li>
+          <li>Right: Sticky Purchase Panel with price, inclusions, trust badges</li>
+          <li>Below: Related templates</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>User, Seller, Affiliate & Admin Pages</h2>
+        <ul class="list">
+          <li>/signup, /login – Centered card on starfield</li>
+          <li>/dashboard – Purchases, downloads, reviews</li>
+          <li>/sell + /seller/dashboard – Uploads, earnings, analytics</li>
+          <li>/affiliate – Calculator, 30% commission, 90‑day cookie</li>
+          <li>/admin – Overview, templates, users, transactions, affiliates, settings</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Figma File Structure</h2>
+        <ul class="list">
+          <li>🎨 Foundations: Colors, Typography, Spacing, Effects, Icons</li>
+          <li>🧩 Components: Buttons, Cards, Inputs, Badges, Navigation, Modal, Empty States</li>
+          <li>📄 Pages: 01 Homepage → 09 Admin Dashboard</li>
+          <li>📱 Mobile Versions: Homepage, Templates, Template Detail</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <span class="muted">© <span id="year"></span> n8nGalaxy</span>
+        <span class="muted"><a href="/terms.html">Terms</a> · <a href="/privacy.html">Privacy</a></span>
+      </div>
+    </footer>
+    <script src="/assets/script.js"></script>
+  </body>
+  </html>

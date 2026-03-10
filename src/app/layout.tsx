@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   description: "n8n workflow template marketplace with sellers and affiliates.",
 };
 
+import { CartProvider } from "@/context/cart-context";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -16,9 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
-        <Header />
-        <main className="mx-auto w-full max-w-5xl px-4 py-6">{children}</main>
-        <Footer />
+        <CartProvider>
+          <Header />
+          <main className="mx-auto w-full max-w-5xl px-4 py-6">
+            {children}
+          </main>
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );
